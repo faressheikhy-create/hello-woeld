@@ -11,11 +11,12 @@ name = "Shahin"
 age = 18
 print(name)
 print(age)
-name = input("Enter your name:Shahin")
-age = input("Enter your age:18")
+name = input("Enter your name:")
+age = int(input("enter your age:"))
 # mathematics of the class students
 student_count = 30
-total_students = student_count * 1  # Assuming each student contributes 1 to the total
+# Assuming each student contributes 1 to the total
+total_students = student_count * 1
 print(total_students)
 a = 10  # assuming a is 10 of the students
 b = 20  # assuming b is 20 of the students
@@ -36,5 +37,5 @@ print(a <= b)
 age = 18
 print(age < 25 and age > 18)
 print(age < 25 or age > 18)
-print(not(age < 25))
-print(not(age > 18))
+print(not (age < 25))
+print(not (age > 18))
