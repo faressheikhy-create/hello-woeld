@@ -73,7 +73,7 @@ print("Minimum day in the Days of the Week:", min_day)
 
 # methods and examples for data construct of set
 # set for unique numbers
-unique_numbers = {1, 2, 3, 4, 5 , 6 , 7 , 8 , 9 , 10}
+unique_numbers = {1, 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10}
 print("Unique Numbers:", unique_numbers)
 # method add() to add an item to the set
 unique_numbers.add(11)
@@ -129,6 +129,13 @@ print("Length of Employee Details:", len(employee_details))
 # method append() to add an item to the list
 employee_details["salary"] = 50000
 print("Employee Details after adding salary:", employee_details)
+# method copy() to create a shallow copy of the dictionary
+new_employee_details = employee_details.copy()
+print("New Employee Details", new_employee_details)
+# method setdefault() Gets a value; adds key if it doesn't exist
+employee_setdefualt = employee_details.setdefault("city" , "black_water")
+print("employee setdefault after adding anew value" , employee_setdefualt)
+print("now print employee details after adding new key and value" , employee_details)
 # method clear() to remove all items from the dictionary
 employee_details.clear()
 print("Employee Details after clearing:", employee_details)
