@@ -1,4 +1,5 @@
-# writing a aprogram that takin copule students information (name,student ID,age) and save it in a file
+# Writing a program that takes information from 4 students and saves it in a file
+
 students = []
 for i in range(4):
     print(f"\n enter student information {i +1}")
