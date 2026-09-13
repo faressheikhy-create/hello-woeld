@@ -15,8 +15,7 @@ for i in range(4):
 # saving students informations ina file
 students = open("students.txt", "w")
 students.write("Student Information:\n")
-for student in students:
-    students.write(f"Name: {student['name']}, Age: {student['age']}, Student ID: {student['student ID']}\n")
+
 
 # Read students from the file
 print("\nStudents saved in the file:")
